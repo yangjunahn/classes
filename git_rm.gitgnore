@@ -1,0 +1,12 @@
+py_edu.ipynb
+
+# 이 파일도 무시
+git_rm.gitgnore
+
+# VS Code, Python 관련 무시 파일
+__pycache__/
+*.pyc
+*.log
+*.ipynb_checkpoints/
+.env
+.DS_Store
