@@ -18,10 +18,14 @@ class LinkedQueue:
  
 	def dequeueAll(self):
 		self.__queue.clear()
+
 	def printQueue(self):
 		print("Queue from front:", end = ' ')
 		for i in range(self.__queue.size()):
 			print(self.__queue.get(i), end = ' ')
 		print()
 
-# 코드 7-13
+	## Problem 03 구현을 위해 추가 구현한 함수
+	def num_Items(self):
+		return self.__queue.size()			
+
